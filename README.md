@@ -1,7 +1,7 @@
 # coin-inference
 Interpretes a string 01001000111... as a result of a coin toss and decides whether it comes from a fair coin, a bent coin or a human faking a coin toss.
 
-Implementation in octave (should work in Matlab, though)
+Implementation in octave (should work in Matlab, though).
 
 Run demo.m for a functionality demonstration: Input a sequence of 0s and 1s after prompt (at least 10 digits long, doesn't normally need more than 150 digits) to let the algorithm decide whether the input comes from a bent coin, a fair coin or a human generator.
 
