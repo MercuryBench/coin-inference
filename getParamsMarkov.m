@@ -15,8 +15,8 @@ function pars = getParamsMarkov(A_proc, A_next)
 			counter(index, 2) = counter(index, 2) + 1;
 		end
 	end
-	pars = zeros(8, 1);
-	for k=1:8
+	pars = zeros(2^nbits, 1);
+	for k=1:2^nbits
 		if sum(counter(k, :)) == 0
 			pars(k) = 0.5;
 		else
